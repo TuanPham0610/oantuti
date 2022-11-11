@@ -39,7 +39,6 @@ def main():
             if event.type == QUIT:
                 sys.exit()
             elif event.type == KEYDOWN:
-                print(event.key)
 
                 # Ấn A ra búa :
                 if event.key == K_a:
